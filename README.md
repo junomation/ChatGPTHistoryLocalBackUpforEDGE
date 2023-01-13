@@ -3,6 +3,10 @@ This Edge Extension that saves ChatGPT conversation history.
 
 To load a Edge extension that you have on your local drive, you would need to enable "developer mode" in the Edge browser first. Here are the steps:
 
+You can download the file and extract them to a local path at https://github.com/NapaNova/ChatGPTHistoryLocalBackUpforEDGE/raw/main/ChatGPTHistoryLocalBackUpEdge1.zip
+
+or
+
 clone this repostiory ```git clone https://github.com/NapaNova/ChatGPTHistoryLocalBackUp.git```
 
 And remember this folder path for later use when you need to load up the actual extension into edge.
@@ -34,6 +38,10 @@ Step 12: After testing, you can make changes to the extension and reload it by c
 # ChatGPT聊天记录本地下载 EDGE 版本
 
 这个Edge扩展包可以让你下载ChatGPT的聊天记录到本地
+
+你可以下载zip文件后解压缩再本地文件路劲 https://github.com/NapaNova/ChatGPTHistoryLocalBackUpforEDGE/raw/main/ChatGPTHistoryLocalBackUpEdge1.zip
+
+或者
 
 用git clone来下载
 ```git clone https://github.com/NapaNova/ChatGPTHistoryLocalBackUp.git```
