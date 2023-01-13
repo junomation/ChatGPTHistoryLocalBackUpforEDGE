@@ -35,6 +35,8 @@ Step 11: To test the extension, open a new tab and check for the icon of the ext
 
 Step 12: After testing, you can make changes to the extension and reload it by clicking on the "Reload" button, which is visible when the developer mode is on.
 
+We are working on to publish on the Edge extension store.
+
 # ChatGPT聊天记录本地下载 EDGE 版本
 
 这个Edge扩展包可以让你下载ChatGPT的聊天记录到本地
@@ -71,4 +73,6 @@ Step 12: After testing, you can make changes to the extension and reload it by c
 步骤11：要测试扩展，打开一个新标签，并检查工具栏中的扩展图标。如果扩展正常工作，您应该能够与其交互或在页面中看到扩展的结果。
 
 步骤12：测试后，您可以对扩展进行修改，并通过在开发者模式下可以点重新载入按钮。
+
+我们正在把这个插件发布到edge的扩展商店里面。
 
