@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Napa Nova ChatGPT Chat History Saver",
+  "icons": {
+    "16": "NapaNova16.png",
+    "48": "NapaNova48.png",
+    "128": "NapaNova128.png"
+  },
+  "version": "1.0",
+  "description": "This extension saves chatgpt chat's current conversation history's as a partial html page with title of the conversation.",
+  "host_permissions": ["https://chat.openai.com/*"],
+  "permissions": [
+    "activeTab",
+    "webNavigation",
+    "downloads",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",    
+    "icons": {
+    "16": "NapaNova16.png",
+    "48": "NapaNova48.png",
+    "128": "NapaNova128.png"
+  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
